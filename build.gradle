@@ -5,7 +5,7 @@ plugins {
 	id "com.jfrog.artifactory" version "3.1.1"
 }
 
-apply from: "https://raw.githubusercontent.com/NOVA-Team/NOVA-Gradle/master/shared-scripts/java.gradle"
+apply from: "https://raw.githubusercontent.com/Temmie19/NOVA-Gradle/master/shared-scripts/java.gradle"
 
 dependencies {
 	compile nova(novaVersion)
